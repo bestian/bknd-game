@@ -5,4 +5,7 @@ export default serve({
    d1: {
       session: true,
    },
+   onBuilt: async (app) => {
+      app.server.get("/", (c) => c.json({ hello: "world" }));
+   }
 });

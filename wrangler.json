@@ -8,9 +8,6 @@
   ],
   "workers_dev": true,
   "minify": true,
-  "assets": {
-    "directory": "node_modules/bknd/dist/static"
-  },
   "observability": {
     "enabled": true
   },
@@ -20,5 +17,6 @@
       "database_name": "data-shadowcave",
       "database_id": "335f5516-30bc-4c5f-9f0d-ac40162b2254"
     }
-  ]
+  ],
+
 }
